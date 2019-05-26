@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-var datafile = require("../datafiles.json")
+var datafile = require("/home/root/work/express-prep-course/datafiles.json");
 
 // Put your answer route here
 // app.get('/', (req, res) => res.send("Hello World !!"));
