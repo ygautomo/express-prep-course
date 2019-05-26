@@ -7,10 +7,11 @@ var datafile = require("/home/root/work/express-prep-course/datafiles.json");
 app.get('/me', (req, res) => res.send(datafile));
 
 /* app.get('/me', (req, res) => res.json({
-    	"Name":"Yugo Gautomo",
-    	"Email": "y_gautomo@yahoo.com",
-    	"Occupation": "Refactory Student"
- 	}) ); */
+			"Name":"Yugo Gautomo",
+			"Email": "y_gautomo@yahoo.com",
+			"Occupation": "Refactory Student"
+		}) 
+	); */
 
 app.listen(3000, () => console.log("Port 3000 initialized and ready!"));
 
