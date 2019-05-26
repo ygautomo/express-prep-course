@@ -3,7 +3,7 @@ const app = express();
 
 // Put your answer route here
 // app.get('/', (req, res) => res.send("Hello World !!"));
-app.get('/me', (req, res) => res.json({
+app.get('/', (req, res) => res.json({
      "Name":"Yugo Gautomo",
      "Email": "y_gautomo@yahoo.com",
      "Occupation": "Refactory Student"
