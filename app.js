@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
-var datafiles = require("datafiles.json")
+var datafile = require("../datafiles.json")
 
 // Put your answer route here
 // app.get('/', (req, res) => res.send("Hello World !!"));
-app.get('/me', (req, res) => res.send(datafiles));
+app.get('/me', (req, res) => res.send(datafile));
 
 /* app.get('/me', (req, res) => res.json({
     	"Name":"Yugo Gautomo",
