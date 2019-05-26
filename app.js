@@ -10,7 +10,7 @@ const app = express();
  		})
 	); */
 
-app.get('/me', (req, res) => res.json(data)	);
+app.get('/me', (req, res) => res.json(personaldata.json) );
 
 app.listen(3000, () => console.log("Port 3000 initialized and ready!"));
 
