@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-var personaldata = require("/me/data.json")
+var personaldata = require("../me/data.json")
 
 // Put your answer route here
 // app.get('/', (req, res) => res.send("Hello World !!"));
