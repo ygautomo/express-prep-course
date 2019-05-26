@@ -1,17 +1,21 @@
 const express = require('express');
 const app = express();
-var personaldata;
+// var personaldata;
 
 // Put your answer route here
 // app.get('/', (req, res) => res.send("Hello World !!"));
 /* app.get('/', (req, res) => res.json({
-     "Name":"Yugo Gautomo",
-     "Email": "y_gautomo@yahoo.com",
-     "Occupation": "Refactory Student"
+    "Name":"Yugo Gautomo",
+    "Email": "y_gautomo@yahoo.com",
+    "Occupation": "Refactory Student"
  		})
 	); */
 
-app.get('/me', (req, res) => res.json(personaldata.json) );
+app.get('/me', (req, res) => res.json({
+    	"Name":"Yugo Gautomo",
+    	"Email": "y_gautomo@yahoo.com",
+    	"Occupation": "Refactory Student"
+ 	}) );
 
 app.listen(3000, () => console.log("Port 3000 initialized and ready!"));
 
